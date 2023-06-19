@@ -39,8 +39,11 @@ I will be working on a .sh and windows installer to automate these steps, but fo
 
 MyPCDashboard (Parent Directory)
 --> client(sub-dir)
+
 ------> index.html (html file)
+
 ------> script.js (javascript file)
+
 ------> style.css (style sheet)
 
 --> data_collector(sub-dir)
