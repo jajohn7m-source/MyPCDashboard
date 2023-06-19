@@ -20,12 +20,18 @@ Run the below command in command prompt or terminal (depending on your operating
 I have matched up the imports to the above command for a high level overview:
 
 # Imports
-import sensors -------> pysensors --------------------> handles some onboard sensors
+import sensors -------> pysensors --------------------> handles some onboard sensor
+
 import psutil --------> psutil -----------------------> Used to get CPU Usage, CPU Temp, nvme temp, RAM Usage
+
 import py3nvml -------> py3nvml ----------------------> Used to get GPU Temp
+
 import GPUtil --------> gputil -----------------------> Used to set a obect of GPU's and get the GPU Load (Usage)
+
 import subprocess ----> Built into python 3.10.6 -----> Used to start the node server in python
+
 import time ----------> Built into python 3.10.6 -----> Used to rest a moment before re-fetching up-to-date data.
+
 import requests ------> requests ---------------------> Used to take the data and send it to the server. 
 
 # Installation Instructions
