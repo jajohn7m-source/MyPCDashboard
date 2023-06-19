@@ -7,7 +7,9 @@ Please make sure you install Node.js on your system otherwise you will run into 
 ** Presuming you have node.js installed on your pc make sure you have the package.json file which should come with this repo. 
 
 Run the below command in command prompt or terminal (depending on your operating system).
+
 --> npm install express 
+
 --> npm install socket.io
 
 
@@ -38,6 +40,7 @@ import requests ------> requests ---------------------> Used to take the data an
 I will be working on a .sh and windows installer to automate these steps, but for now you would need to perform all the steps above and also move the folder where you would like to have it stored. The file structure should be:
 
 MyPCDashboard (Parent Directory)
+
 --> client(sub-dir)
 
 ------> index.html (html file)
@@ -56,4 +59,5 @@ MyPCDashboard (Parent Directory)
 ------> index.js (server javascript file)
 
 package.json (json file)
+
 package-lock.json (json file)
