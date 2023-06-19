@@ -8,6 +8,7 @@ import GPUtil
 import subprocess
 import time
 import requests
+import webbrowser
 
 
 def get_ram_temperature():
@@ -94,6 +95,7 @@ if __name__ == '__main__':
     # Start node server:
     # Start the Node.js server
     server_process = subprocess.Popen(["nodejs", "../server/index.js"], stdout=subprocess.PIPE)
+    webbrowser.open('http://localhost:3000/')
     time.sleep(2)
     main()
     server_process.terminate()
